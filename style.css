@@ -94,3 +94,43 @@ button:hover{
     }
    
 }
+
+#levelScreen{
+    display:none;
+    width:100vw;
+    height:100vh;
+
+    position:absolute;
+
+    top:0;
+    left:0;
+
+    background:linear-gradient(#05030d #12122d #000);
+
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+#levels{
+    display:flex;
+    flex-direction:column;
+
+    gap:20px;
+
+    margin-top:30px;
+}
+
+.levelBtn{
+    width:280px;
+}
+
+.locked{
+    background:#444;
+    color:#888;
+    cursor:not-allowed;
+}
+
+#backBtn{
+    margin-top:50px;
+}
